@@ -1,0 +1,10 @@
+# notebook requirements
+jupyter
+jupyterlab
+
+numpy
+onnxruntime
+apache-tvm==0.11.1
+typing_extensions
+onnx 
+onnxoptimizer
