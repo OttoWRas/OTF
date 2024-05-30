@@ -1,6 +1,10 @@
 #/host/*
+*.lpr
+*.xpr
+*.log
+*.jou
 /venv/*
-/tvmgen_default_run/*
+/tvmgen_default_tvm_main_/*
 *.json
 *.pyc
 *.onnx
