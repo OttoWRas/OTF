@@ -27,3 +27,14 @@ def fix_lib_file_0(path):
                 flag = False
             if "int32" in line:
                 flag = True
+
+def fix_lib_file_1(path):
+    with open(path, 'r+') as file:
+        flag = False
+        lines = file.readlines()
+        file.seek(0)
+        file.truncate()
+        for idx, line in enumerate(lines):
+            if idx != 5 and idx != 6:
+                if "__" in line and "__cplusplus" not in line:
+                    l = line.replace("__", "_")
