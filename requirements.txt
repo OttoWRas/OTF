@@ -8,3 +8,14 @@ apache-tvm==0.11.1
 typing_extensions
 onnx 
 onnxoptimizer
+appJar
+sys
+glob
+serial
+re
+PIL
+tkinter
+time
+threading
+cv2
+struct
