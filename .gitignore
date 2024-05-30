@@ -1,4 +1,4 @@
-/host/*
+#/host/*
 /venv/*
 /tvmgen_default_run/*
 *.json
