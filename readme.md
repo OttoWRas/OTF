@@ -12,4 +12,8 @@ This flow requires a local [TVM](https://github.com/apache/tvm) installation and
 
 ## Running the flow
 
-The project contains a jupyter notebook that has the first part of the flow. The second part of the flow is in the readme file inside
+The project contains a jupyter notebook that has all the necesarry steps to compile, synthesise and run and onnx model.
+
+## Disclaimer / TODO
+
+The current version of the C file clean up scirpts in `cleanup.py` is not yet able to fully prepare for HLS. There is therfore still some manual work required there, though this is explained in the flow.
